@@ -15,5 +15,4 @@ def RandomEmoticon() -> str:
         else:
             yield choice(Build)
 
-for _ in range(10):
-    print(''.join(RandomEmoticon()))
+print(''.join(RandomEmoticon()))
